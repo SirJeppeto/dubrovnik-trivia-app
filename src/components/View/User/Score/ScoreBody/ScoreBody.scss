@@ -1,0 +1,25 @@
+.ScoreBody {
+    width: 90%;
+    max-width: 800px;
+    height: 32rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__loading {
+        opacity: 0;
+        margin: auto;
+        font-size: 1.8rem;
+        animation: showItem 0.5s ease 0.5s forwards;
+    }
+}
+
+@keyframes showItem {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

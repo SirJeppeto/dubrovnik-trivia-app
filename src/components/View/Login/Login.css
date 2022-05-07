@@ -1,0 +1,60 @@
+.Login {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Login__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Login__form__submit {
+  margin-bottom: 20px;
+}
+
+.Login__form__username, .Login__form__password {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 20x;
+}
+
+.Login__form__submit {
+  cursor: pointer;
+  padding: 0.3rem 2rem;
+  border-radius: 20x;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.Login__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=Login.css.map */

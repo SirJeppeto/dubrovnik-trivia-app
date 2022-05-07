@@ -1,0 +1,63 @@
+.Question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 2rem;
+
+    &:hover {
+        .Question__buttons__delete, .Question__buttons__edit {
+            opacity: 1;
+        }
+    }
+
+    &__buttons {
+        &__edit {
+            cursor: pointer;
+            font-size: 1rem;
+            text-align: center;
+            color: black;
+            background-color: white;
+            border: 2px black solid;
+            border-radius: 1rem;
+            padding: 0.3rem 0.5rem;
+            font-weight: bolder;
+            margin-right: 5px;
+            opacity: 0;
+    
+            &:active {
+                outline: none;
+                color: white;
+                background-color: black;
+            }
+    
+            &:focus {
+                outline: none;
+            }
+        }
+    
+        &__delete {
+            font-size: 1rem;
+            cursor: pointer;
+            text-align: center;
+            color: white;
+            background-color: black;
+            border: 2px black solid;
+            border-radius: 1rem;
+            padding: 0.3rem 0.5rem;
+            font-weight: bolder;
+            opacity: 0;
+    
+            &:active {
+                outline: none;
+                color: black;
+                background-color: white;
+            }
+    
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.Game {
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+    &__score {
+        z-index: 1;
+        position: absolute;
+        top: 5vh;
+        right: 5vw;
+        cursor: pointer;
+        user-select: none;
+
+        &:hover {
+            color: #800080;
+        }
+
+        &:active {
+            color: #570057;
+        }
+    }
+}

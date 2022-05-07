@@ -1,0 +1,8 @@
+.Timer {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 4rem;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191;
+}
+/*# sourceMappingURL=Timer.css.map */

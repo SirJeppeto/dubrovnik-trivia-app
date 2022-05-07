@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,KAAK;CACjB",
+    "sources": [
+        "ScoreHeader.scss"
+    ],
+    "names": [],
+    "file": "ScoreHeader.css"
+}

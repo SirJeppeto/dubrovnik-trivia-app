@@ -1,0 +1,178 @@
+.PlaygroundScore {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PlaygroundScore__home, .PlaygroundScore__scores {
+  position: absolute;
+  top: 5vh;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.PlaygroundScore__home:hover, .PlaygroundScore__scores:hover {
+  color: #800080;
+}
+
+.PlaygroundScore__home:active, .PlaygroundScore__scores:active {
+  color: #570057;
+}
+
+.PlaygroundScore__home {
+  left: 5vw;
+}
+
+.PlaygroundScore__scores {
+  right: 5vw;
+}
+
+.PlaygroundScore__status {
+  font-size: 1.6rem;
+  opacity: 0;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  -webkit-animation: show 3s ease forwards;
+          animation: show 3s ease forwards;
+}
+
+.PlaygroundScore__cong {
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191;
+}
+
+.PlaygroundScore__score {
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191;
+}
+
+.PlaygroundScore__form {
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.PlaygroundScore__form__submit {
+  text-shadow: 1px 1px 1px #6e6e6e, 1px 2px 1px #6e6e6e, 1px 3px 1px #6e6e6e, 1px 4px 1px #6e6e6e;
+  margin-left: 1rem;
+  cursor: pointer;
+  padding: 1rem 0.6rem 1rem 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  background-color: black;
+  border: white 2px solid;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.PlaygroundScore__form__submit:active {
+  outline: none;
+  color: black;
+  background-color: white;
+}
+
+.PlaygroundScore__form__submit:focus {
+  outline: none;
+}
+
+.PlaygroundScore__form__input {
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  background-color: black;
+  border: white 2px solid;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.PlaygroundScore__form__input:active, .PlaygroundScore__form__input:focus {
+  outline: none;
+}
+
+.PlaygroundScore__form__input::-webkit-input-placeholder {
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.PlaygroundScore__form__input:-ms-input-placeholder {
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.PlaygroundScore__form__input::-ms-input-placeholder {
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.PlaygroundScore__form__input::placeholder {
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+/*# sourceMappingURL=PlaygroundScore.css.map */

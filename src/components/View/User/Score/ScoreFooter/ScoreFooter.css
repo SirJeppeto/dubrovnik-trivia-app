@@ -1,0 +1,44 @@
+.ScoreFooter {
+  width: 90%;
+  max-width: 800px;
+  padding: 5vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+.ScoreFooter .hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ScoreFooter p {
+  opacity: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.ScoreFooter p:hover {
+  color: #800080;
+}
+
+.ScoreFooter p:active {
+  color: #570057;
+}
+/*# sourceMappingURL=ScoreFooter.css.map */

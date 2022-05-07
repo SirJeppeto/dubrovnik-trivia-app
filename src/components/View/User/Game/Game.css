@@ -1,0 +1,26 @@
+.Game {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.Game__score {
+  z-index: 1;
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.Game__score:hover {
+  color: #800080;
+}
+
+.Game__score:active {
+  color: #570057;
+}
+/*# sourceMappingURL=Game.css.map */

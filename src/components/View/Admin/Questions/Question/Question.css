@@ -1,0 +1,68 @@
+.Question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.Question:hover .Question__buttons__delete, .Question:hover .Question__buttons__edit {
+  opacity: 1;
+}
+
+.Question__buttons__edit {
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 1rem;
+  padding: 0.3rem 0.5rem;
+  font-weight: bolder;
+  margin-right: 5px;
+  opacity: 0;
+}
+
+.Question__buttons__edit:active {
+  outline: none;
+  color: white;
+  background-color: black;
+}
+
+.Question__buttons__edit:focus {
+  outline: none;
+}
+
+.Question__buttons__delete {
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 2px black solid;
+  border-radius: 1rem;
+  padding: 0.3rem 0.5rem;
+  font-weight: bolder;
+  opacity: 0;
+}
+
+.Question__buttons__delete:active {
+  outline: none;
+  color: black;
+  background-color: white;
+}
+
+.Question__buttons__delete:focus {
+  outline: none;
+}
+/*# sourceMappingURL=Question.css.map */
